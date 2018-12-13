@@ -6,6 +6,8 @@
 ### Author: Student/Group Name
 
 ### Links and Resources
+* [warmup](https://repl.it/@Kevinoh47/destructuring-and-spread)
+* [sandbox](https://codesandbox.io/s/zw67yx84rp)
 * [repo](http://xyz.com)
 * [travis](http://xyz.com)
 * [back-end](http://xyz.com)
