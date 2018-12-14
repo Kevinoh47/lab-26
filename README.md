@@ -3,7 +3,7 @@
 
 ## Lab 26 - Component Based UI - React.js
 
-### Author: Kevin O'Halloran
+### Author: Kevin O'Halloran and John Cokos
 
 ### Links and Resources
 * [warmup](https://repl.it/@Kevinoh47/destructuring-and-spread)
