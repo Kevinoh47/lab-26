@@ -1,9 +1,9 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
+## Lab 26 - Component Based UI - React.js
 
-### Author: Student/Group Name
+### Author: Kevin O'Halloran
 
 ### Links and Resources
 * [warmup](https://repl.it/@Kevinoh47/destructuring-and-spread)
@@ -49,4 +49,4 @@ No setup necessary in codesandbox.io
 Dependencies include classnames for managing dynamic markup classes, react, react-dom, react-redux, react-router-dom, react-scripts, redux, and superagent.
 
 #### UML
-![Whiteboard](/Users/kevin/codefellows/401/labs/lab-26/lab-26-component-based-ui-react-uml.jpg)
+![Whiteboard UML](lab-26-component-based-ui-react-uml.jpg)
