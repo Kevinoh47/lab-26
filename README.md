@@ -8,39 +8,45 @@
 ### Links and Resources
 * [warmup](https://repl.it/@Kevinoh47/destructuring-and-spread)
 * [sandbox](https://codesandbox.io/s/zw67yx84rp)
-* [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com)
-* [front-end](http://xyz.com)
+* [repo](https://github.com/Kevinoh47/lab-26/tree/working26)
 
 ### Modules
 
-#### `modulename.js`
+#### `app.js`
 ##### Exported Values and Methods
+exports default App. 
+The App class extends React.Component
+###### `render() -> React.Fragment`
+The app class renders a React.Fragment, composed of other fragments, building the final page.
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+#### `counter.js`
+##### Exported Values and Methods
+exports default Counter
+the Counter class extends React.Component
+######`render() -> React.Fragment`
+The render function renders a React.Fragment, which is the main section of the Counter application. It contains buttons / links for incrementing and decrementing the counter, handlers for the buttons /links, and stateful values of counter and posNum.
+######`handleAdd(e) -> nothing (state updated)`
+The handleAdd event handler function takes an onClick event, and manages the state of the counter by incrementing the counter and testing whether the new number is positive or negative.
+######`handleSub(e) -> nothing (state updated)`
+The handleSub event handler function takes an onClick event, and manages the state of the counter by decrementing the counter and testing whether the new number is positive or negative.
 
-###### `bar(array) -> array`
-Usage Notes or examples
+####`header.js`
+#####`Exported Values and Methods
+exports default Header
+the Header class extends React.Component
+######`render() -> React.Fragment`
+The render function returns static markup inside a React Fragment.
 
+####`footer.js`
+#####`Exported Values and Methods
+exports default Footer
+the Footer class extends React.Component
+######`render() -> React.Fragment`
+The render function returns static markup inside a React Fragment.
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
-
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+No setup necessary in codesandbox.io
+Dependencies include classnames for managing dynamic markup classes, react, react-dom, react-redux, react-router-dom, react-scripts, redux, and superagent.
 
 #### UML
-Link to an image of the UML for your application and response to events
+![Whiteboard](./lab-26-component-based-ui-react-ump.jpg)
